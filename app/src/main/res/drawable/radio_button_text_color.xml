@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Selected state text color - White text on purple background -->
+    <item android:state_checked="true" android:color="#FFFFFF"/>
+
+    <!-- Pressed/Hover state text color - Purple text -->
+    <item android:state_pressed="true" android:color="#4A148C"/>
+
+    <!-- Normal state text color - Gray text -->
+    <item android:color="#666666"/>
+
+</selector>

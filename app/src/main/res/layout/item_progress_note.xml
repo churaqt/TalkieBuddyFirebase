@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="12dp"
+    android:background="@drawable/card_background">
+
+    <TextView
+        android:id="@+id/txvDate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Date: Monday, 7 July 2025"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/txvTopic"
+        android:layout_width="91dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="8dp"
+        android:text="Topic: Animals"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txvDate" />
+
+    <TextView
+        android:id="@+id/txvWords"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Words Learned: Lion, Roar, Happy"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/txvTopic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/txvSummary"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Summary: Talked about zoo animals and mimicked sounds"
+        android:textSize="14sp"
+        android:textColor="#555555"
+        app:layout_constraintTop_toBottomOf="@id/txvWords"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/txvConfidence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confidence: 4 (Confident)"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/txvSummary"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/txvDuration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Duration: 15 minutes"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/txvSummary"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/txvNotes"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Notes: Had trouble saying 'elephant'"
+        android:textSize="14sp"
+        android:textColor="#777777"
+        app:layout_constraintTop_toBottomOf="@id/txvConfidence"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="32dp" />
+
+    <ImageView
+        android:id="@+id/btnEdit"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginEnd="24dp"
+        android:contentDescription="Edit"
+        android:src="@drawable/ic_edit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/btnDelete" />
+    <ImageView
+        android:id="@+id/btnDelete"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/ic_delete"
+        android:contentDescription="Delete"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="8dp"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

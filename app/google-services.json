@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "368087607049",
+    "project_id": "talkiebuddy-a2337",
+    "storage_bucket": "talkiebuddy-a2337.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:368087607049:android:064812a71de12e2f9355d8",
+        "android_client_info": {
+          "package_name": "edu.uph.m2si1.talkiebuddy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHckAWZhdL39LufGwos05fjvCFxrypGsA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

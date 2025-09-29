@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="main_brown">#5E3C0A</color>
+    <color name="brown">#5E3C0A</color>
+    <color name="purple_700">#5E3C0A</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background_cream">#FFFCEB</color>
+
+    <color name="brown_color">#8B4513</color>
+    <color name="green_color">#4CAF50</color>
+    <color name="background_color">#F5F5F5</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="text_primary">#333333</color>
+    <color name="text_secondary">#666666</color>
+    <color name="gold_color">#D4AF37</color>
+
+    <!-- Settings panel colors -->
+    <color name="settings_background">#F8F6F0</color>
+    <color name="settings_header_background">#F8F6F0</color>
+    <color name="settings_text_primary">#2C2C2C</color>
+    <color name="settings_text_secondary">#888888</color>
+    <color name="settings_icon_color">#666666</color>
+
+    <!-- Switch colors -->
+    <color name="switch_track_checked">#E6956B</color>
+    <color name="switch_track_unchecked">#CCCCCC</color>
+    <color name="switch_thumb_checked">#FFFFFF</color>
+    <color name="switch_thumb_unchecked">#FFFFFF</color>
+
+    <!-- Logout button colors -->
+    <color name="logout_text_color">#FFFFFF</color>
+    <color name="logout_button_background">#FFFFFF</color>
+    <color name="logout_button_border">#FFFFFF</color>
+</resources>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TalkieBuddy</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_bottom_navigation_view">BottomNavigationView</string>
+    <string name="title_activity_main_bar">MainBar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="emotion_array">
+        <item>Happy</item>
+        <item>Curious</item>
+        <item>Playful</item>
+        <item>Excited</item>
+        <item>Shy</item>
+        <item>Sleepy</item>
+    </string-array>
+</resources>

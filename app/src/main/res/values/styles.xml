@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Switch Style -->
+    <style name="SwitchStyle">
+        <item name="colorControlActivated">@color/switch_track_checked</item>
+        <item name="colorSwitchThumbNormal">@color/switch_thumb_unchecked</item>
+        <item name="android:colorForeground">@color/switch_track_unchecked</item>
+    </style>
+</resources>
