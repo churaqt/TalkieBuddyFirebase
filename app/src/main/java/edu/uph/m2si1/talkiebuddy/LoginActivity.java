@@ -37,7 +37,7 @@ public class LoginActivity extends AppCompatActivity {
         // Inisialisasi FirebaseAuth
         mAuth = FirebaseAuth.getInstance();
 
-        edtEmail = findViewById(R.id.edtUsername);  // Pastikan editText ini untuk email
+        edtEmail = findViewById(R.id.edtUsername);
         edtPassword = findViewById(R.id.edtPassword);
         btnLogin = findViewById(R.id.btnLogin);
         txvRegister = findViewById(R.id.txvRegister);

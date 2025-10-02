@@ -9,7 +9,7 @@ import com.google.firebase.firestore.FirebaseFirestore;
 public class MainActivity extends AppCompatActivity {
 
     ActivityMainBinding binding;
-    FirebaseFirestore db;  // tambahkan ini
+    FirebaseFirestore db;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        db = FirebaseFirestore.getInstance();  // inisialisasi Firestore
+        db = FirebaseFirestore.getInstance();
 
         binding.bottomNavigationView.setSelectedItemId(R.id.navHome);
         replaceFragment(new HomeFragment());
